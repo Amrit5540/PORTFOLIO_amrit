@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="amritstyle.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <h2 class="logo">Portfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Amrit singh</span></h1>
+            <p>Diploma in computer science & engineering</p>
+            <p>| Frontend Developer | Web Designer | JavaScript Enthusiast |</p>
+            <button onclick="scrollToSection('contact')">Hire Me</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I'm a passionate web developer who loves creating responsive and
+            user-friendly websites using HTML, CSS, and JavaScript.
+        </p>
+        
+    
+        </strong></p>
+    </section>
+
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+     <!-- Internship -->
+    <section id="internship" class="section">
+        <h2>Internship Experience</h2>
+
+        <div class="card">
+            <h3>Web Development Intern</h3>
+
+            <p>
+                Organization : TechGlaz Labs Private Limited, Rani talav , Bhagalpur,813210
+        
+            <p><strong>Email:</strong> techglazlabspvtltd@gmail.com</p>
+            <p><strong>Phone:</strong> +916204696995</p>
+            </p>
+
+            <p>
+                Duration : 30 Days
+            </p>
+
+            <p>
+                Learned responsive web design, front-end development,
+                website structure, HTML, CSS, JavaScript and project
+                implementation.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio built with HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather Website</h3>
+            <p>Fetches live weather data using APIs.</p>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List</h3>
+            <p>Task management application with local storage.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+            <input type="text" placeholder="your name" required>
+            <input type="email" placeholder="your email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Amrit singh. All Rights Reserved.</p>
+    </footer>
+
+    <script src="amrit.js"></script>
+</body>
+</html>
